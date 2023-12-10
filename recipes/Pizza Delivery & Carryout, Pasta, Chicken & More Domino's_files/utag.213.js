@@ -1,4 +1,0 @@
-//tealium universal tag - utag.213 ut4.0.202311061552, Copyright 2023 Tealium.com Inc. All Rights Reserved.
-try{(function(id,loader,u){u=utag.o[loader].sender[id]={};u.ev={'view':1};u.qsp_delim="&";u.kvp_delim="=";u.data={};u.data.ta_property_id="3371";u.data.ta_action_id="CONV_HP_Dominos_HomePageVisit";u.base_url="//pixel.tapad.com/tap/pxl.png?";u.map={};u.extend=[];u.send=function(a,b){if(u.ev[a]||typeof u.ev.all!="undefined"){var c,d,e,f;c=[];for(d in utag.loader.GV(u.map)){if(typeof b[d]!=="undefined"&&b[d]!==""){e=u.map[d].split(",");for(f=0;f<e.length;f++){u.data[e[f]]=encodeURIComponent(b[d]);}}}
-c.push("ta_property_id="+u.data.ta_property_id,"ta_action_id="+u.data.ta_action_id);u.img=new Image();u.img.src=u.base_url+c.join(u.qsp_delim);}}
-utag.o[loader].loader.LOAD(id);})('213','dominos.main');}catch(e){}
