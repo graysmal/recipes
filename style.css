@@ -1,0 +1,29 @@
+body {
+    background-color: lightcoral;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(255, 255, 255);
+    
+}
+h2 {
+    font-size: 54px;
+}
+
+ul {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ol {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+img {
+    float: right;
+    margin-top: 10%;
+    margin-right:10%;
+}
