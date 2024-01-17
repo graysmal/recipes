@@ -1,29 +1,52 @@
 body {
     background-color: lightcoral;
     color: black;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 h1 {
     text-align: center;
     color:rgb(255, 255, 255);
-    
 }
+
 h2 {
     font-size: 54px;
 }
 
+p {
+    font-size: 24px;
+}
+
 ul {
     font-size: 24px;
-    font-weight: bold;
 }
 
 ol {
     font-size: 24px;
+}
+
+.bold {
     font-weight: bold;
+}
+
+.center {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.bold.center {
+    color:purple;
+}
+
+ul.bold.center li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 img {
     float: right;
+    height: auto;
+    width: 500px;
     margin-top: 10%;
     margin-right:10%;
 }
